@@ -1,0 +1,17 @@
+version: "3.4"
+services:
+    rfeapi:
+        build:
+            context: ./rfeTestAPI
+            dockerfile: Dockerfile
+        ports:
+            - "7777:80"
+        restart: always
+        
+    rfeclient:
+        build:
+            context: ./rfeTestCLIENT
+            dockerfile: Dockerfile
+        ports:
+            - "5555:80"
+        restart: always

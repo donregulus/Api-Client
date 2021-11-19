@@ -1,0 +1,95 @@
+﻿body {
+    background-color: #000000;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.form-horizontal {
+    max-width: 420px;
+    margin: 50px auto;
+}
+
+.form-control {
+    color: #979292;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 5px;
+    line-height: 22px;
+    background-color: transparent;
+    border: 2px solid #CC6666;
+    transition: all 0.3s;
+    padding: 13px;
+    margin-bottom: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+.form-control:focus {
+    border: 2px solid #CC4949;
+}
+
+
+[type="submit"] {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    background: #CC6666;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    color: black;
+    font-size: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: all 0.3s;
+    margin-top: -4px;
+    font-weight: 700;
+}
+
+[type="submit"]:hover {
+    background: #CC4949;
+}
+
+a:link, a:visited {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    border-radius: 5px;
+    border: 0;
+    color: #979292;
+    font-size: 14px;
+    font-weight: 700;
+    border: 2px solid #CC6666;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 137px;
+}
+
+a:hover, a:active {
+    background-color: #CC4949;
+    color: black;
+}
+
+.container, h1 {
+    color: #979292;
+}
+
+.validation-summary-errors, ul, span {
+    color: red;
+}
+
